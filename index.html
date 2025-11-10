@@ -3,379 +3,444 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-<link rel="icon" href="Images/843_aletter-removebg-preview.png" type="image/png"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-    <!-- Google Font's -->
+    <title>Abuzar Khan - Portfolio</title>
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
-        rel="stylesheet">
-
-    <link rel="stylesheet" href="style.css">
-    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     
-    <title>Abuzar Khan</title>
+    <!-- Favicon -->
+    <link rel="icon" href="Images/843_aletter-removebg-preview.png" type="image/png"/>
+    
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Typed.js Library -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
 </head>
 
 <body>
-    
-    <!-- Navbar -->
-    <!-- <div class="loader-wrapper">
-        <div class="loader"></div>
-      </div>
-    <div class="details" id="details"> -->
+    <!-- Header & Navigation -->
     <header id="header">
-        <!-- floating buttons -->
-        <div class="floating-container">
-            <div class="floating-btn">
-                <i class="fa-solid fa-arrow-left"></i>
-            </div>
-            <div class="element-container">
-               
-                <a href="https://github.com/Khan-abuzar479" target="_blank">
-                    <span class="float-element" >
-                        <i class="fa-brands fa-github"></i>
-                    </span>
-                </a>
-                 <a href="https://www.linkedin.com/in/abuzar-khan-5518262ab/" target="_blank" > <span class="float-element" style="background-color: #0A66C2;">
-                    <i class="fa-brands fa-linkedin"></i>
-                </span></a>                
-               
-
-
-
-            <a id="modeToggle"><span class="float-element">
-                <i class="fa-solid fa-moon"></i>
-                <i class="fa-solid fa-sun" style="display: none;"></i>
-            </span></a>
+        <div class="container">
+            <nav class="navbar">
+                <!-- Logo -->
+                <div class="logo">PORTFOLIO</div>
                 
-            </div>
-        </div>
-        
-  <!-- nav -->
-        <div class="navbar">
-            <div class="logo">PORTFOLIO</div>
-            <ul class="links">
-                <li><a href="#hero" style="--i:1"  class="active">HOME</a></li>
-                <li><a href="#About" style="--i:2">ABOUT</a></li>
-                <li><a href="#my_skills" style="--i:3">SKILLS</a></li>
-                               <li><a href="#my_projects" style="--i:3">PROJECTS</a></li>
-              
-                <li><a href="#contact" style="--i:5">CONTACT</a></li>
-            </ul>
-            <a href="Abuzar.pdf" target="_blank" class="action_btn">Resume</a>
-
-            <div class="toggle_btn">
-                <i class="fa-solid fa-bars"></i>
-            </div>
-
+                <!-- Desktop Navigation Links -->
+                <ul class="nav-links">
+                    <li><a href="#hero" class="active">HOME</a></li>
+                    <li><a href="#About">ABOUT</a></li>
+                    <li><a href="#my_skills">SKILLS</a></li>
+                    <li><a href="#my_projects">PROJECTS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+                
+                <!-- Resume Button -->
+                <a href="Abuzar.pdf" target="_blank" class="action_btn">Resume</a>
+                
+                <!-- Mobile Menu Toggle -->
+                <div class="toggle_btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
         </div>
 
-        <div class="dropdown_menu" >
-            <div class="close_btn" >
+        <!-- Mobile Dropdown Menu -->
+        <div class="dropdown_menu">
+            <div class="close_btn">
                 <i class="fa-solid fa-xmark"></i>
             </div>
-            <div class="dropdown-items">
-         
-            <li>
-                <a href="#hero" class="active">
-                    HOME
-                </a>
-            </li>
-            <li>
-                <a href="#About">
-                   ABOUT
-                </a>
-            </li>
-            <li>
-                <a href="#my_skills">
-                    SKILLS
-                </a>
-            </li>
-            <li>
-                <a href="#my_projects">
-                    PROJECTS
-                </a>
-            </li>
-            <li>
-                <a href="#contact">
-                    CONTACT
-                </a>
-            </li>
-           <li><a href="Abuzar.pdf" target="_blank" class="action_btn">Resume</a></li>
-
+            <ul class="dropdown-items">
+                <li><a href="#hero" class="active">HOME</a></li>
+                <li><a href="#About">ABOUT</a></li>
+                <li><a href="#my_skills">SKILLS</a></li>
+                <li><a href="#my_projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+                <li><a href="Abuzar.pdf" target="_blank" class="action_btn">Resume</a></li>
+            </ul>
         </div>
- 
-        <object type="image/svg+xml"  data="wave1.svg" id="svg"></object>
-
-        
-        </div>
-        
-        
-
     </header>
 
-    <!-- Hero section -->
-   
-        <section id="hero">
-            <div class="textbox">
-                <h2>Hello, I am <br><span class="text">Abuzar khan</span></h2>
-                <h3> And I'm a <span class="role text" style="font-size: 30px;"> </span></h3>
-                <a href="#contact" class="btn">Let's Talk</a>
-                <div class="contact_icon">
-                    <a style="--i:7" href="https://github.com/Khan-abuzar479"><i class="fa-brands fa-github"></i></a>
-                    <a style="--i:8" href="https://www.linkedin.com/in/abuzar-khan-5518262ab/"><i
-                            class="fa-brands fa-linkedin"></i></a>
-                    <a  style="--i:9"href=""><i class="fa-brands fa-discord"></i></a>
-                    <a style="--i:10"href="https://api.whatsapp.com/send?phone=7054847889"><i class="fa-brands fa-whatsapp"></i></a>
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Hero Text Content -->
+                <div class="hero-text">
+                    <h2>Hello, I am <br><span class="text">Abuzar khan</span></h2>
+                    <h3>And I'm a <span class="role text"></span></h3>
+                    <a href="#contact" class="btn">Let's Talk</a>
+                    
+                    <!-- Social Media Icons -->
+                    <div class="contact_icon">
+                        <a href="https://github.com/Khan-abuzar479" aria-label="GitHub">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abuzar-khan-5518262ab/" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                        <a href="" aria-label="Discord">
+                            <i class="fa-brands fa-discord"></i>
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=7054847889" aria-label="WhatsApp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Image -->
+                <div class="hero-image">
+                    <img src="Abuzar.jpg" alt="Abuzar Khan - MERN Stack Developer">
                 </div>
             </div>
-            <div class="img-box">
-                <!-- <img id="back-img" src="Images/hero-bg.png"> -->
-                <img id="hero-img" src="Abuzar.jpg" >
-            </div>
-        </section>
+        </div>
+    </section>
 
-
-    <!-- About section -->
-
+    <!-- About Section -->
     <section id="About">
-        <div class="heading">
-            <h2>About <span class="text"> Me</span></h2>
-        </div>
-        <div class="content " data-aos="zoom-in">
-            <div class="myimg ">
-                <img class="portfolio_img" src="Abuzar.jpg">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="section-heading">
+                <h2>About <span class="text">Me</span></h2>
             </div>
-            <div class="contentbox  ">
-                <h3 id="head_content">I'm a MERN stack Developer</h3>
-                <p id="para2">I have a Master's degree in Computer Application, specializing in software development. Skilled in HTML, CSS, JavaScript, and ReactJS, I enjoy creating engaging web experiences and solving coding challenges.
-<br><br>
-                    As a lifelong learner, I actively seek opportunities to broaden my skills and understanding of new technologies. With a strong work ethic and problem-solving abilities, I thrive in innovative environments.
-                    <br><br>
-                    My approach to work is driven by a passion for learning and a dedication to excellence. I am committed to using my technical skills to contribute to the growth of a reputable IT organization while continuously improving myself professionally.
-                </p>
-
+            
+            <!-- About Content -->
+            <div class="about-content">
+                <!-- Profile Image -->
+                <div class="myimg">
+                    <img class="portfolio_img" src="Abuzar.jpg" alt="Abuzar Khan Profile Picture">
+                </div>
+                
+                <!-- About Text -->
+                <div class="contentbox">
+                    <h3>I'm a MERN stack Developer</h3>
+                    <p>
+                        I have a Master's degree in Computer Application, specializing in software development. 
+                        Skilled in HTML, CSS, JavaScript, and ReactJS, I enjoy creating engaging web experiences 
+                        and solving coding challenges.
+                    </p>
+                    <p>
+                        As a lifelong learner, I actively seek opportunities to broaden my skills and understanding 
+                        of new technologies. With a strong work ethic and problem-solving abilities, I thrive in 
+                        innovative environments.
+                    </p>
+                    <p>
+                        My approach to work is driven by a passion for learning and a dedication to excellence. 
+                        I am committed to using my technical skills to contribute to the growth of a reputable 
+                        IT organization while continuously improving myself professionally.
+                    </p>
+                </div>
             </div>
         </div>
     </section>
 
-
-    <!-- Skill section -->
-    
-        <section id="my_skills">
-            <div class="heading">
+    <!-- Skills Section -->
+    <section id="my_skills">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="section-heading">
                 <h2>My <span class="text">Skills</span></h2>
-                <p id="para3">"Learning is the engine that drives success, each milestone a testament to our journey's evolution. With each lesson, we craft a stronger foundation, paving the way for greater achievements. Embrace the process, and watch as every challenge transforms into opportunity."</p>
+                <p>
+                    "Learning is the engine that drives success, each milestone a testament to our journey's evolution. 
+                    With each lesson, we craft a stronger foundation, paving the way for greater achievements. 
+                    Embrace the process, and watch as every challenge transforms into opportunity."
+                </p>
             </div>
-            <!-- skill-bar -->
-            <div class="skill_list" data-aos="fade-right" >
-                <div class="skill" >
-                    <h3 >MERN stack</h3>
-                    <!-- <h4 >80%</h4> -->
-                    <span class="skill_bar"></span>
-                    <span class="fill-bar c"></span>
-                </div>
-                <div class="skill" >
-                    <h3 >HTML & CSS</h3>
-                    <!-- <h4 id="cssBar">85%</h4> -->
-                    <span class="skill_bar"></span>
-                    <span class="fill-bar html"></span>
-                </div>
-                <div class="skill" >
-                    <h3 >JAVASCRIPT</h3>
-                    <!-- <h4 id="jsBar">70%</h4> -->
-                    <span class="skill_bar"></span>
-                    <span class="fill-bar JavaScript"></span>
-                </div>
+            
+            <!-- Skills List -->
+            <div class="skill_list">
+                <!-- MERN Stack Skill -->
                 <div class="skill">
-                    <h3 >REACT JS</h3>
-                    <!-- <h4 id="cplusBar">75%</h4> -->
-                    <span class="skill_bar"></span>
-                    <span class="fill-bar react"></span>
+                    <h3>MERN stack</h3>
+                    <span class="skill_bar">
+                        <span class="fill-bar c"></span>
+                    </span>
                 </div>
+                
+                <!-- HTML & CSS Skill -->
                 <div class="skill">
-                    <h3 >Core Java</h3>
-                    <!-- <h4 id="cplusBar">75%</h4> -->
-                    <span class="skill_bar"></span>
-                    <span class="fill-bar react"></span>
+                    <h3>HTML & CSS</h3>
+                    <span class="skill_bar">
+                        <span class="fill-bar html"></span>
+                    </span>
                 </div>
-               
-                <!--  -->
-                <div class="skill" >
+                
+                <!-- JavaScript Skill -->
+                <div class="skill">
+                    <h3>JAVASCRIPT</h3>
+                    <span class="skill_bar">
+                        <span class="fill-bar JavaScript"></span>
+                    </span>
+                </div>
+                
+                <!-- React JS Skill -->
+                <div class="skill">
+                    <h3>NEXT JS</h3>
+                    <span class="skill_bar">
+                        <span class="fill-bar react"></span>
+                    </span>
+                </div>
+                
+                <!-- Core Java Skill -->
+                <div class="skill">
+                    <h3>Core Java</h3>
+                    <span class="skill_bar">
+                        <span class="fill-bar react"></span>
+                    </span>
+                </div>
+                
+                <!-- Git & GitHub Skill -->
+                <div class="skill">
                     <h3>GIT & GITHUB</h3>
-                    <!-- <h4 id="cBar">90%</h4> -->
-                    <span class="skill_bar"></span>
-                    <span class="fill-bar git"></span>
+                    <span class="skill_bar">
+                        <span class="fill-bar git"></span>
+                    </span>
                 </div>
-            
-            </div>
-        </section>
-    
-  <!-- Timeline section-->
-  <section id="timeline" >
-    <div class="heading">
-        <h2>My <span class="text">Journey</span></h2>
-        <p id="para4">"Like a river carving its path through rugged terrain, my journey meanders through the landscapes of academia and industry, transitioning from the structured banks of school to the expansive deltas of college and beyond, carving out a narrative of curiosity, determination, and relentless pursuit of excellence."</p>
-    </div>
-    <div class="Timeline-area" data-aos="slide-right">
-        <div class="timeline-content left-container">
-            <div class="box ">
-                <h2>High School </h2>
-                <small>2016</small>
-                <p style="margin-bottom: 5px;">High school at Bharti HSS Pipari Sain Nathpur, Sultanpur, was more than just a stage in my education; it was a journey of self-discovery, exploration, and growth that laid the groundwork for my future endeavors. I successfully completed it with an academic score of 83.3%.
-                </p>
-                <!-- <p> Grade : 83.3% </p> -->
-                <span class="left-arrow"></span>
-            </div>
-        </div>
-        <div class="timeline-content right-container">
-            <div class="box ">
-                <h2>Intermediate </h2>
-                <small>2018</small>
-                <p style="margin-bottom: 5px;"> "At Chacha Nehru I.C. Manikpur Kurebhar, Sultanpur, my intermediate years were characterized by academic excellence, personal growth, and the formation of lasting friendships. It was a time of discovery and preparation for the journey ahead, and I successfully completed it with 79%."</p>
-                <!-- <p> Grade : 79% </p> -->
-                <span class="right-arrow"></span>
-
-            </div>
-        </div>
-        <div class="timeline-content left-container">
-            <div class="box ">
-                <h2>Bachelor's Degree</h2>
-                <small>2019-2022</small>
-                <p style="margin-bottom: 5px;">"I completed my Bachelor’s in Computer Applications (BCA) at KNIPSS, Sultanpur, with a CGPA of 6.2. For me, it was not just about earning a degree, but about embracing the complexities of technology, fueling my passion, and preparing myself for the innovations of tomorrow."</p>
-                <!-- <p>CGPI : 6.2</p> -->
-                <span class="left-arrow"></span>
-
-            </div>
-        </div>
-        <div class="timeline-content right-container">
-            <div class="box ">
-                <h2>Master's Degree</h2>
-                <small>2023-2025</small>
-                <p>"I have successfully completed my Master’s in Computer Applications (MCA) from Integral University, Lucknow, with a CGPA of 9.20. This achievement has equipped me with a strong foundation in software development, problem-solving, and emerging technologies."
-                </p>
-                <span class="right-arrow"></span>
-
-            </div>
-
-        </div>
-
-    </div>
-</section>
-
-   
-            
-           
-        <!-- pagination
-        <div id="pagination">
-            <button id="prevPage">Previous</button>
-            <button id="nextPage">Next</button>
-        </div>
-    </div> -->
-
-      <!-- Project Section -->
-    <section id="my_projects">
-        <div class="heading">
-            <h2>My <span class="text">Projects</span></h2>
-            <p id="para5">"Here are some of the projects I’ve worked on that showcase my skills in web development, problem-solving, and creativity."</p>
-        </div>
-
-        <div class="projects-container" data-aos="fade-up">
-            <!-- Project 1 -->
-            <div class="project-card">
-         <h3>Real-estate Website</h3>
-<p>Developed a responsive real estate website using React.js and Tailwind CSS with a modern and clean UI. Implemented features like property listings, search filters, and reusable components for better user experience. Ensured mobile responsiveness and scalable component structure following best practices in frontend development.</p>
-I. 
-                <a href="https://github.com/Khan-abuzar479/Real-State" target="_blank" class="project-link">
-                    <i class="fa-brands fa-github"></i> View Project
-                </a>
-            </div>
-
-            <!-- Project 2 -->
-            <div class="project-card">
-                <h3>Weather Website</h3>
-<p>Developed a dynamic Weather Website using React.js, integrating Material UI and Tailwind CSS for a responsive and visually appealing UI. Fetched real-time weather data from a public API and displayed temperature, humidity, and forecast with clean UI components.</p>
-Hey, Cortana play. Football. Skills football. Logical board of tonight's. Shirts each other. Football. Control. Santos Football Club. European coach Style Michaela. Football. Station. Football. Team as far as the coach? I. Hey, Cortana. Hey, Cortana. Hey, Cortana. 
-                <a href="https://github.com/Khan-abuzar479/Whether-website/tree/main/Weather-website-main" target="_blank" class="project-link">
-                    <i class="fa-brands fa-github"></i> View Project
-                </a>
-            </div>
-
-            <!-- Project 3 -->
-            <div class="project-card">
-<h3>School Website</h3>
-<p>Designed and developed a responsive School Website using HTML, CSS, JavaScript, and Bootstrap for a modern, accessible layout. Created multiple pages including Home, About, Courses, Gallery, and Contact Form with smooth navigation. Utilized Bootstrap components for layout and styling, and added JavaScript interactivity for dynamic user experience.</p>
-Hurry.  
-                <a href="https://github.com/Khan-abuzar479/School-web" target="_blank" class="project-link">
-                    <i class="fa-brands fa-github"></i> View Project
-                </a>
             </div>
         </div>
     </section>
 
-    <!-- contact Section-->
-    <section id="contact">
-
-        <div class="heading">
-            <h2>Contact <span class="text">Me!</span></h2>
-            <p style="margin-top: 5px;">Let's Work Together</p>
-        </div>
-        <div class="contact-container">
-            <div class="contact-item conc-1 ">
-                <h2>Abuzar Khan</h2>
-                <p>"Hello! I'm an impassioned programming enthusiast with a firm foundation in essential concepts. I take pride in crafting intricate and innovative applications using a diverse array of programming languages."</p>
-            </div>
-            <div class="contact-item conc-2">
+    <!-- Timeline Section -->
+    <section id="timeline">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="section-heading">
+                <h2>My <span class="text">Journey</span></h2>
                 <p>
-                    Uttar Pradesh, India 'Got a question? Drop me a line on my personal email!'
+                    "Like a river carving its path through rugged terrain, my journey meanders through the landscapes 
+                    of academia and industry, transitioning from the structured banks of school to the expansive deltas 
+                    of college and beyond, carving out a narrative of curiosity, determination, and relentless pursuit 
+                    of excellence."
                 </p>
-                <div class="contact-info ">
-                    <a href="mailto:Khan705484@gmail.com"><i class="fa-solid fa-envelope"></i>Khan705484@gmail.com</a>
-                    <a href="tel:+917054847889"><i class="fa-solid fa-phone"></i>+91 7054847889</a>
+            </div>
+            
+            <!-- Timeline Content -->
+            <div class="Timeline-area">
+                <!-- High School Timeline Item -->
+                <div class="timeline-content left-container">
+                    <div class="box">
+                        <h2>High School</h2>
+                        <small>2016</small>
+                        <p>
+                            High school at Bharti HSS Pipari Sain Nathpur, Sultanpur, was more than just a stage 
+                            in my education; it was a journey of self-discovery, exploration, and growth that laid 
+                            the groundwork for my future endeavors. I successfully completed it with an academic 
+                            score of 83%.
+                        </p>
+                        <span class="left-arrow"></span>
+                    </div>
+                </div>
+                
+                <!-- Intermediate Timeline Item -->
+                <div class="timeline-content right-container">
+                    <div class="box">
+                        <h2>Intermediate</h2>
+                        <small>2018</small>
+                        <p>
+                            "At Chacha Nehru I.C. Manikpur Kurebhar, Sultanpur, my intermediate years were 
+                            characterized by academic excellence, personal growth, and the formation of lasting 
+                            friendships. It was a time of discovery and preparation for the journey ahead, and 
+                            I successfully completed it with 80. %."
+                        </p>
+                        <span class="right-arrow"></span>
+                    </div>
+                </div>
+                
+                <!-- Bachelor's Degree Timeline Item -->
+                <div class="timeline-content left-container">
+                    <div class="box">
+                        <h2>Bachelor's Degree</h2>
+                        <small>2019-2022</small>
+                        <p>
+                            "I completed my Bachelor's in Computer Applications (BCA) at KNIPSS, Sultanpur, 
+                            with a CGPA of 6.2. For me, it was not just about earning a degree, but about 
+                            embracing the complexities of technology, fueling my passion, and preparing myself 
+                            for the innovations of tomorrow."
+                        </p>
+                        <span class="left-arrow"></span>
+                    </div>
+                </div>
+                
+                <!-- Master's Degree Timeline Item -->
+                <div class="timeline-content right-container">
+                    <div class="box">
+                        <h2>Master's Degree</h2>
+                        <small>2023-2025</small>
+                        <p>
+                            "I have successfully completed my Master's in Computer Applications (MCA) from 
+                            Integral University, Lucknow, with a CGPA of 9.20. This achievement has equipped 
+                            me with a strong foundation in software development, problem-solving, and emerging 
+                            technologies."
+                        </p>
+                        <span class="right-arrow"></span>
+                    </div>
                 </div>
             </div>
-            <div class="contact-item">
-                <div class="contact-info conc-3">
-                    <a href="https://www.linkedin.com/in/abuzar-khan-5518262ab/" target="_blank">
-    <i class="fa-brands fa-linkedin fa-beat-fade"></i> Linkedin
-</a>
-
-                    <!-- <a href="https://instagram.com/sahilsidd010?igshid=ZDdkNTZiNTM=" target="_blank"><i
-                            class="fa-brands fa-instagram fa-beat-fade"></i>Instagram</a> -->
-                    <a href="https://api.whatsapp.com/send?phone=7054847889" target="_blank"><i
-                            class="fa-brands fa-whatsapp fa-beat-fade" ></i>whatsapp</i></a>
-                   <a href="https://github.com/Khan-abuzar479" target="_blank">
-    <i class="fa-brands fa-github fa-beat-fade"></i> Github
-</a>
-
-                </div>
-            </div>
-
         </div>
-        <hr>
-    <!-- footer -->
+    </section>
 
-        <footer class="footer">
+    <!-- Projects Section -->
+    <section id="my_projects">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="section-heading">
+                <h2>My <span class="text">Projects</span></h2>
+                <p>
+                    "Here are some of the projects I've worked on that showcase my skills in web development, 
+                    problem-solving, and creativity."
+                </p>
+            </div>
+            
+            <!-- Projects Container -->
+            <div class="projects-container">
+                <!-- Project 1: Real Estate Website -->
+                <div class="project-card">
+                    <h3>Real-estate Website</h3>
+                    <p>
+                        Developed a responsive real estate website using React.js and Tailwind CSS with a modern 
+                        and clean UI. Implemented features like property listings, search filters, and reusable 
+                        components for better user experience. Ensured mobile responsiveness and scalable component 
+                        structure following best practices in frontend development.
+                    </p>
+                    <a href="https://github.com/Khan-abuzar479/Real-State" target="_blank" class="project-link">
+                        <i class="fa-brands fa-github"></i> View Project
+                    </a>
+                </div>
+                
+                <!-- Project 2: Weather Website -->
+                <div class="project-card">
+                    <h3>Weather Website</h3>
+                    <p>
+                        Developed a dynamic Weather Website using React.js, integrating Material UI and Tailwind 
+                        CSS for a responsive and visually appealing UI. Fetched real-time weather data from a 
+                        public API and displayed temperature, humidity, and forecast with clean UI components.
+                    </p>
+                    <a href="https://github.com/Khan-abuzar479/Whether-website/tree/main/Weather-website-main" 
+                       target="_blank" class="project-link">
+                        <i class="fa-brands fa-github"></i> View Project
+                    </a>
+                </div>
+                
+                <!-- Project 3: School Website -->
+                <div class="project-card">
+                    <h3>School Website</h3>
+                    <p>
+                        Designed and developed a responsive School Website using HTML, CSS, JavaScript, and 
+                        Bootstrap for a modern, accessible layout. Created multiple pages including Home, About, 
+                        Courses, Gallery, and Contact Form with smooth navigation. Utilized Bootstrap components 
+                        for layout and styling, and added JavaScript interactivity for dynamic user experience.
+                    </p>
+                    <a href="https://github.com/Khan-abuzar479/School-web" target="_blank" class="project-link">
+                        <i class="fa-brands fa-github"></i> View Project
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <!-- Section Heading -->
+            <div class="section-heading">
+                <h2>Contact <span class="text">Me!</span></h2>
+                <p>Let's Work Together</p>
+            </div>
+            
+            <!-- Contact Container -->
+            <div class="contact-container">
+                <!-- Personal Introduction -->
+                <div class="contact-item conc-1">
+                    <h2>Abuzar Khan</h2>
+                    <p>
+                        "Hello! I'm an impassioned programming enthusiast with a firm foundation in essential 
+                        concepts. I take pride in crafting intricate and innovative applications using a diverse 
+                        array of programming languages."
+                    </p>
+                </div>
+                
+                <!-- Contact Information -->
+                <div class="contact-item conc-2">
+                    <p>
+                        Uttar Pradesh, India 'Got a question? Drop me a line on my personal email!'
+                    </p>
+                    <div class="contact-info">
+                        <a href="mailto:Khan705484@gmail.com">
+                            <i class="fa-solid fa-envelope"></i>Khan705484@gmail.com
+                        </a>
+                        <a href="tel:+917054847889">
+                            <i class="fa-solid fa-phone"></i>+91 7054847889
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Social Media Links -->
+                <div class="contact-item conc-3">
+                    <div class="contact-info">
+                        <a href="https://www.linkedin.com/in/abuzar-khan-5518262ab/" target="_blank">
+                            <i class="fa-brands fa-linkedin"></i> Linkedin
+                        </a>
+                        <a href="https://api.whatsapp.com/send?phone=7054847889" target="_blank">
+                            <i class="fa-brands fa-whatsapp"></i> Whatsapp
+                        </a>
+                        <a href="https://github.com/Khan-abuzar479" target="_blank">
+                            <i class="fa-brands fa-github"></i> Github
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
             <div class="footer_text">
                 <p>Copyright &copy; 2023 by AbuzarKh | All Right Reserved</p>
-                <button id="scrollToTopBtn"><i class="fa-sharp fa-solid fa-arrow-up"></i></button>
             </div>
-        </footer>
-    </section>
+        </div>
+    </footer>
 
-<!-- </div> -->
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTopBtn" aria-label="Scroll to top">
+        <i class="fa-sharp fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Floating Buttons Container -->
+    <div class="floating-container">
+        <!-- Main Floating Button -->
+        <div class="floating-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+        </div>
+        
+        <!-- Floating Social Media Buttons -->
+        <div class="element-container">
+            <a href="https://github.com/Khan-abuzar479" target="_blank" aria-label="GitHub">
+                <span class="float-element">
+                    <i class="fa-brands fa-github"></i>
+                </span>
+            </a>
+            <a href="https://www.linkedin.com/in/abuzar-khan-5518262ab/" target="_blank" aria-label="LinkedIn">
+                <span class="float-element" style="background-color: #0A66C2;">
+                    <i class="fa-brands fa-linkedin"></i>
+                </span>
+            </a>
+            <a id="modeToggle" aria-label="Toggle dark mode">
+                <span class="float-element">
+                    <i class="fa-solid fa-moon"></i>
+                </span>
+            </a>
+        </div>
+    </div>
+
+    <!-- JavaScript File -->
     <script src="script.js"></script>
-
 </body>
 
 </html>
